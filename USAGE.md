@@ -6,10 +6,10 @@ Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses
 ### Preparation 1: Setup environment and install required libraries
 
 - OS: Ubuntu 16.04
-- CUDA: 9.1
-- Python: **Python 2** from Anaconda2
+- CUDA: 9.1 (https://developer.nvidia.com/cuda-downloads; http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+- Python: **Python 2** from Anaconda2 (https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
 - Python Library Dependency
-  1. `conda install pytorch torchvision cuda90 -y -c pytorch`
+  1. `conda install pytorch=0.3.1 torchvision cuda90 -y -c pytorch`
   2. `conda install -y -c menpo opencv3`
   3. `conda install -y -c anaconda pip`
   4. `pip install scikit-umfpack`
